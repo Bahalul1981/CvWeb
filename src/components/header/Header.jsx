@@ -23,11 +23,7 @@ export const Header = () => {
           </li>
           <li>
             <NavLink to="/skills" onClick={toggleNav}>
-<<<<<<< HEAD
-              Kompetenss
-=======
               Kompetenssss
->>>>>>> working
             </NavLink>
           </li>
           <li>
