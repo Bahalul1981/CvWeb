@@ -1,0 +1,31 @@
+.home-image-and-text {
+  display: flex;
+}
+
+.home-content {
+  border: 0.5px solid black;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 4rem;
+  font-size: 1.5rem;
+  margin-top: 60px;
+  margin-left: 40px;
+  background-color: rgba(71, 62, 25, 0.078);
+  font-family: "Dancing Script", cursive;
+  font-family: "Gloock", serif;
+  font-family: "Kalam", cursive;
+}
+
+.about-me-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-main-image {
+  height: 40rem;
+  background-color: rgb(1, 4, 3);
+}
