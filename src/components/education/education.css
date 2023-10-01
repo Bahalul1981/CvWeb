@@ -1,0 +1,58 @@
+.education-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Styles for the heading */
+h1 {
+  font-size: 34px;
+  color: #142f43;
+  margin-bottom: 20px;
+}
+
+/* Styles for each education item */
+.education-item {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 5px;
+}
+.web-link {
+  color: #154b04;
+}
+.web-link:hover {
+  color: #154b04;
+  font-weight: bold;
+}
+
+/* Styles for the list of courses */
+.courses {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.course-list {
+  background-color: #85898d56;
+  max-height: 200px;
+  overflow-x: auto;
+  margin-top: 20px;
+  padding-right: 10px;
+}
+.course-list li {
+  font-size: 12px;
+  padding-top: 15px;
+}
+
+/* Media query for mobile responsiveness */
+@media (max-width: 768px) {
+  .education-container {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+}
